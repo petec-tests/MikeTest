@@ -61,6 +61,15 @@
     }
 }
 
+- (BOOL)tableView:(UITableView *)tableView shouldHighlightRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (!self.editing) {
+        return YES;
+    }
+    else {
+        return (indexPath.section == 0);
+    }
+}
+
 - (IBAction)toggleEditMode:(id)sender {
     [self setEditing:!self.editing animated:YES];
 }
