@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27818CF41964137F00834B65 /* DSSDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 27818CF31964137F00834B65 /* DSSDataSource.m */; };
 		B5D2E5BC1963142E006E7E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D2E5BB1963142E006E7E4D /* Foundation.framework */; };
 		B5D2E5BE1963142E006E7E4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D2E5BD1963142E006E7E4D /* CoreGraphics.framework */; };
 		B5D2E5C01963142E006E7E4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D2E5BF1963142E006E7E4D /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27818CF21964137F00834B65 /* DSSDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSDataSource.h; sourceTree = "<group>"; };
+		27818CF31964137F00834B65 /* DSSDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSDataSource.m; sourceTree = "<group>"; };
 		B5D2E5B81963142E006E7E4D /* MikeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MikeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D2E5BB1963142E006E7E4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B5D2E5BD1963142E006E7E4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				B5D2E5CB1963142E006E7E4D /* DSSAppDelegate.m */,
 				B5D2E5D01963142E006E7E4D /* DSSViewController.h */,
 				B5D2E5D11963142E006E7E4D /* DSSViewController.m */,
+				27818CF21964137F00834B65 /* DSSDataSource.h */,
+				27818CF31964137F00834B65 /* DSSDataSource.m */,
 				B5D2E5F01963154C006E7E4D /* DSSViewControllerCell.h */,
 				B5D2E5F11963154C006E7E4D /* DSSViewControllerCell.m */,
 				B5D2E5CD1963142E006E7E4D /* Main.storyboard */,
@@ -259,6 +264,7 @@
 				B5D2E5CC1963142E006E7E4D /* DSSAppDelegate.m in Sources */,
 				B5D2E5D21963142E006E7E4D /* DSSViewController.m in Sources */,
 				B5D2E5F21963154C006E7E4D /* DSSViewControllerCell.m in Sources */,
+				27818CF41964137F00834B65 /* DSSDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +469,7 @@
 				B5D2E5EC1963142E006E7E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5D2E5ED1963142E006E7E4D /* Build configuration list for PBXNativeTarget "MikeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +478,7 @@
 				B5D2E5EF1963142E006E7E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -40,13 +40,14 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="48e-xK-a0l" id="ncF-s0-mEg"/>
+                            <outlet property="dataSource" destination="k8u-dU-k72" id="Fv0-Z0-WI0"/>
                             <outlet property="delegate" destination="48e-xK-a0l" id="lCc-17-iBJ"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="Kl0-hB-rSw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="efi-o8-aoz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="k8u-dU-k72" customClass="DSSDataSource"/>
             </objects>
             <point key="canvasLocation" x="921" y="423"/>
         </scene>
