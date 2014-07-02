@@ -75,8 +75,4 @@
     }
 }
 
-- (IBAction)toggleEditMode:(id)sender {
-    [self setEditing:!self.editing animated:YES];
-}
-
 @end
